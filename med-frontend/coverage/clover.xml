@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1662301547321" clover="3.2.0">
+  <project timestamp="1662301547321" name="All files">
+    <metrics statements="315" coveredstatements="0" conditionals="52" coveredconditionals="0" methods="206" coveredmethods="0" elements="573" coveredelements="0" complexity="0" loc="315" ncloc="315" packages="9" files="53" classes="53"/>
+    <package name="components.AdminComponents.script">
+      <metrics statements="122" coveredstatements="0" conditionals="40" coveredconditionals="0" methods="66" coveredmethods="0"/>
+      <file name="InventoryActionModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/InventoryActionModal.js">
+        <metrics statements="18" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/InventoryTable.js">
+        <metrics statements="41" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/InventoryTableList.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+      <file name="UserAddSection.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/UserAddSection.js">
+        <metrics statements="7" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+      <file name="UserEditModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/UserEditModal.js">
+        <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+      </file>
+      <file name="UserTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/UserTable.js">
+        <metrics statements="33" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="97" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+      </file>
+      <file name="UserTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/AdminComponents/script/UserTableList.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.DealerComponents.script">
+      <metrics statements="48" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="34" coveredmethods="0"/>
+      <file name="BuyProductsTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/BuyProductsTable.js">
+        <metrics statements="18" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+      </file>
+      <file name="BuyProductsTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/BuyProductsTableList.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="BuyRequestModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/BuyRequestModal.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/InventoryTable.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/InventoryTableList.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="RequestHistoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/RequestHistoryTable.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="RequestHistoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/DealerComponents/script/RequestHistoryTableList.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.RetailerComponents.script">
+      <metrics statements="77" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="58" coveredmethods="0"/>
+      <file name="BillingPOS.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BillingPOS.js">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+      <file name="BillingPageProductArea.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BillingPageProductArea.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="BillingPageProductList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BillingPageProductList.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="BuyProductsTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BuyProductsTable.js">
+        <metrics statements="18" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+      </file>
+      <file name="BuyProductsTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BuyProductsTableList.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="BuyRequestModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/BuyRequestModal.js">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="CartProductItem.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/CartProductItem.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryRequestModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/InventoryRequestModal.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="InventoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/InventoryTable.js">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="InventoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/InventoryTableList.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="RequestHistoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/RequestHistoryTable.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="RequestHistoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/RequestHistoryTableList.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="SalesHistoryTable.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/SalesHistoryTable.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="SalesHistoryTableList.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/RetailerComponents/script/SalesHistoryTableList.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.script">
+      <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="0"/>
+      <file name="BadgeComponent.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/BadgeComponent.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      </file>
+      <file name="ButtonComponent.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/ButtonComponent.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="ConfirmModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/ConfirmModal.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="NavBar.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/NavBar.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="RequestActionModal.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/RequestActionModal.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="RequestDetailCard.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/RequestDetailCard.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="RequestStepperCard.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/RequestStepperCard.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="SpinnerProgress.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/components/script/SpinnerProgress.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="views.Admin.script">
+      <metrics statements="23" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="AdminDashBoard.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Admin/script/AdminDashBoard.js">
+        <metrics statements="22" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+      </file>
+      <file name="AdminHomePage.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Admin/script/AdminHomePage.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="AdminInventory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Admin/script/AdminInventory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="AdminUserManagement.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Admin/script/AdminUserManagement.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="views.Dealer.script">
+      <metrics statements="23" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="DealerBuyProducts.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Dealer/script/DealerBuyProducts.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="DealerDashBoard.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Dealer/script/DealerDashBoard.js">
+        <metrics statements="22" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+      </file>
+      <file name="DealerHomePage.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Dealer/script/DealerHomePage.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="DealerInventory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Dealer/script/DealerInventory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="DealerRequestHistory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Dealer/script/DealerRequestHistory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="views.HelperPages.script">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="NotFound.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/HelperPages/script/NotFound.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="views.Retailer.script">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="RetailerBuyProducts.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerBuyProducts.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="RetailerDashBoard.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerDashBoard.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="RetailerHomePage.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerHomePage.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="RetailerInventory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerInventory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="RetailerRequestHistory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerRequestHistory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="RetailerSalesHistory.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/Retailer/script/RetailerSalesHistory.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="views.script">
+      <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="LoginPage.js" path="/Users/vigneshr/Desktop/Med-Project/med-frontend/src/views/script/LoginPage.js">
+        <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+  </project>
+</coverage>
