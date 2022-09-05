@@ -1,6 +1,6 @@
 import BadgeComponent from "@/components/BadgeComponent.vue";
 import ButtonComponent from "@/components/ButtonComponent.vue";
-
+import { mapGetters } from "vuex";
 export default {
   name: "UserTableList",
   props: {
@@ -18,6 +18,9 @@ export default {
     ButtonComponent,
   },
   computed: {
+    ...mapGetters({
+      userId: "getUserId",
+    }),
     checkStatus() {
       return this.user.active;
     },

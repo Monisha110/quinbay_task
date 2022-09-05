@@ -17,7 +17,6 @@ export default {
   computed: {},
   methods: {
     changeDateFormat(data) {
-      console.log(data);
       return new Date(data).toDateString();
     },
   },

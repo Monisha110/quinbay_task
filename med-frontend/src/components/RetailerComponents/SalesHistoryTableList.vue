@@ -3,7 +3,7 @@
     <td>{{ index + 1 }}</td>
     <td>{{ changeDateFormat(sales.createdTime) }}</td>
     <td>
-      <ul>
+      <ul class="ul--list">
         <li v-for="(data, index) in sales.orderItems" :key="index">
           {{ data.name + " - " + data.quantity }}
         </li>
@@ -14,7 +14,7 @@
     <td>
       <BadgeComponent
         :label="sales.status"
-        :className="[
+        :class="[
           sales.status === 'CREATED'
             ? 'badge--success--outline'
             : 'badge--error--outline',
@@ -36,5 +36,8 @@
   padding-bottom: 8px;
   font-size: 14px;
   color: #646464;
+}
+.ul--list {
+  margin: 0;
 }
 </style>

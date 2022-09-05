@@ -87,7 +87,7 @@
           <div class="col-6 pe-1">
             <ButtonComponent
               label="Close"
-              buttonStyle="btn--black--outline"
+              class="btn--black--outline"
               @onClick="closeAction()"
               type="button"
             />
@@ -96,7 +96,7 @@
             <ButtonComponent
               label="Save"
               :disabled="!isButtonEnabled"
-              :buttonStyle="[isButtonEnabled ? 'btn--black' : 'btn--disabled']"
+              :class="[isButtonEnabled ? 'btn--black' : 'btn--disabled']"
               @onClick="confirmAction()"
               type="button"
             />
@@ -221,5 +221,11 @@ select {
 .action--form--controller {
   margin-bottom: 10px;
   margin-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .modal--content {
+    width: 90%;
+  }
 }
 </style>

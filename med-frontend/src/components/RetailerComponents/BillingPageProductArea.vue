@@ -2,7 +2,7 @@
   <div>
     <div class="search--card">
       <div class="row align-items-center justify-content-between">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-12 col-lg-8 mt-2 mt-lg-0">
           <input
             type="text"
             class="search--bar"
@@ -10,18 +10,18 @@
             placeholder="Search Product"
           />
         </div>
-        <div class="col-6 col-md-2 my-2 px-0">
+        <div class="col-6 col-md-6 col-lg-2 my-2 px-lg-0">
           <ButtonComponent
             label="Search"
-            buttonStyle="btn--primary--sm--100"
+            class="btn--primary--sm--100"
             @onClick="searchForProduct()"
             type="button"
           />
         </div>
-        <div class="col-6 col-md-2 my-2 ps-2">
+        <div class="col-6 col-md-6 col-lg-2 my-2 ps-2">
           <ButtonComponent
             label="Clear"
-            buttonStyle="btn--black--outline"
+            class="btn--black--outline"
             @onClick="clearSearch()"
             type="button"
           />
@@ -31,7 +31,7 @@
     <div class="my-3">
       <div class="row g-3">
         <BillingPageProductList
-          class="col-12 col-md-6 col-lg-4"
+          class="col-12 col-md-12 col-lg-6 col-xl-4"
           v-for="(data, index) in productList"
           :key="index"
           :product="data"

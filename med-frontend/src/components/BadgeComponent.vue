@@ -1,7 +1,10 @@
 <template>
-  <p :class="className">
+  <p>
     {{ label }}
   </p>
+  <!-- <p :class="className">
+    {{ label }}
+  </p> -->
 </template>
 <script src="@/components/script/BadgeComponent.js"></script>
 <style scoped>

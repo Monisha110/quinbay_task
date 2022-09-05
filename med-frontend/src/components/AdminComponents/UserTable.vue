@@ -2,7 +2,7 @@
   <div class="">
     <div class="user--table--search">
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 mb-2 mb-md-0">
           <p class="table--header">
             Total Franchise
             <span class="total--client--badge"
@@ -12,7 +12,7 @@
         </div>
         <div class="col-12 col-md-6">
           <div class="row justify-content-end align-items-center gx-2">
-            <div class="col-6">
+            <div class="col-12 col-md-6 mb-2 mb-md-0">
               <input
                 type="text"
                 v-model="searchText"
@@ -20,18 +20,18 @@
                 placeholder="Search user..."
               />
             </div>
-            <div class="col-auto">
+            <div class="col-6 col-md-3">
               <ButtonComponent
                 label="Search"
-                buttonStyle="btn--primary--sm--outline"
+                class="btn--primary--sm--outline--100"
                 @onClick="searchName()"
                 type="button"
               />
             </div>
-            <div class="col-auto">
+            <div class="col-6 col-md-3">
               <ButtonComponent
                 label="Clear"
-                buttonStyle="btn--danger--sm--outline"
+                class="btn--danger--sm--outline--100"
                 @onClick="clearSearch()"
                 type="button"
               />

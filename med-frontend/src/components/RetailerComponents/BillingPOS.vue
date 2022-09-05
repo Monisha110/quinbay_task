@@ -6,7 +6,11 @@
           <p class="card--header">Checkout Sale</p>
         </div>
         <div>
-          <button class="cart--clear" @click="$store.commit('clearCart')">
+          <button
+            class="cart--clear"
+            v-if="cartProducts.length != 0"
+            @click="$store.commit('clearCart')"
+          >
             Clear
           </button>
         </div>
@@ -65,8 +69,12 @@
       <div class="mt-4">
         <ButtonComponent
           label="Checkout"
-          :disabled="false"
-          buttonStyle="btn--primary--sm--100"
+          :disabled="cartProducts.length == 0"
+          :class="
+            cartProducts.length == 0
+              ? 'btn--disabled--sm--100'
+              : 'btn--primary--sm--100'
+          "
           @onClick="completeCheckOut()"
           type="button"
         />

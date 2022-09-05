@@ -2,7 +2,7 @@
   <div class="">
     <div class="inventory--table--search">
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-2 mb-lg-0">
           <p class="table--header">
             Total Items
             <span class="total--client--badge"
@@ -10,9 +10,9 @@
             >
           </p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-8">
           <div class="row justify-content-end align-items-center gx-2">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-sm-8 col-md-5 mb-2 mb-md-0">
               <input
                 type="text"
                 v-model="searchText"
@@ -20,26 +20,26 @@
                 placeholder="Search product"
               />
             </div>
-            <div class="col-6 col-md-auto">
+            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0">
               <ButtonComponent
                 label="Search"
-                buttonStyle="btn--black--outline"
+                class="btn--black--outline"
                 @onClick="searchName()"
                 type="button"
               />
             </div>
-            <div class="col-6 col-md-auto">
+            <div class="col-6 col-sm-6 col-md-2 mb-2 mb-md-0">
               <ButtonComponent
                 label="Clear"
-                buttonStyle="btn--primary--sm--outline"
+                class="btn--primary--sm--outline--100"
                 @onClick="clearSearch()"
                 type="button"
               />
             </div>
-            <div class="col-6 col-md-auto">
+            <div class="col-12 col-sm-6 col-md-3 mb-2 mb-md-0">
               <ButtonComponent
                 label="Add Product"
-                buttonStyle="btn--primary--sm"
+                class="btn--primary--sm--100"
                 @onClick="addNewProduct()"
                 type="button"
               />

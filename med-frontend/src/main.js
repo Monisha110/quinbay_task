@@ -5,6 +5,7 @@ import store from "./store";
 
 import VueToast from "vue-toast-notification";
 import VueLottiePlayer from "vue-lottie-player";
+import VueSkeletonLoader from "skeleton-loader-vue";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "vue-toast-notification/dist/theme-sugar.css";
@@ -20,13 +21,13 @@ import {
 library.add(faCircleCheck, faCircleXmark, faCircleExclamation);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
+Vue.component("vue-skeleton-loader", VueSkeletonLoader);
+Vue.use(VueLottiePlayer);
 
 Vue.use(VueToast, {
   position: "bottom-right",
   duration: 4000,
 });
-
-Vue.use(VueLottiePlayer);
 
 Vue.config.productionTip = false;
 

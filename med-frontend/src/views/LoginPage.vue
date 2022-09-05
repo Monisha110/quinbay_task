@@ -33,7 +33,7 @@
               <ButtonComponent
                 label="Login"
                 :disabled="!(validateFormEntry && !usernameValidation)"
-                :buttonStyle="
+                :class="
                   validateFormEntry && !usernameValidation
                     ? 'btn--primary'
                     : 'btn--disabled'

@@ -21,7 +21,6 @@ export default {
       this.$emit("closeAction");
     },
     confirmAction() {
-      console.log(this.requestModalData);
       const objForConfirm = {
         remark: this.remark,
         requestId: this.requestModalData.requestId,

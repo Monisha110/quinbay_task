@@ -1,0 +1,26 @@
+[
+  {
+    "description": "Aspirin, also known as acetylsalicylic acid, is a medication used to reduce pain, fever, and/or inflammation.",
+    "imageUrl": "https://www.biovea.com/in/images/products/xlrg/14695_z.jpg",
+    "name": "Aspirin",
+    "netQuantity": 100,
+    "price": 50,
+    "tax": 3
+  },
+  {
+    "description": "Budesonide, sold under the brand name Pulmicort among others, is a medication of the corticosteroid type.",
+    "imageUrl": "https://img.medscapestatic.com/pi/features/drugdirectory/octupdate/NEP97011.jpg?output-quality=50",
+    "name": "Budesonide",
+    "netQuantity": 150,
+    "price": 120,
+    "tax": 4
+  },
+  {
+    "description": "Dutasteride, sold under the brand name Avodart among others, is a medication primarily used to treat the symptoms of an enlarged prostate",
+    "imageUrl": "https://www.empowerpharmacy.com/sites/default/files/2020-10/Dutasteride-Capsules.jpg",
+    "name": "Dutasteride",
+    "netQuantity": 100,
+    "price": 50,
+    "tax": 3
+  }
+]

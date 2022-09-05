@@ -7,7 +7,7 @@
     <td>
       <BadgeComponent
         :label="checkStatus ? 'Active' : 'InActive'"
-        :className="[
+        :class="[
           checkStatus ? 'badge--success--outline' : 'badge--error--outline',
           'badge--outline--sm',
         ]"
@@ -18,9 +18,7 @@
       <ButtonComponent
         label="Edit"
         :disabled="user.role === 'ADMIN'"
-        :buttonStyle="
-          user.role === 'ADMIN' ? 'btn--disabled--sm' : 'btn--edit--sm'
-        "
+        :class="user.role === 'ADMIN' ? 'btn--disabled--sm' : 'btn--edit--sm'"
         @onClick="editModal()"
         type="button"
       />
@@ -29,9 +27,7 @@
       <ButtonComponent
         :disabled="user.role === 'ADMIN'"
         :label="user.active ? 'Deactivate' : 'Activate'"
-        :buttonStyle="
-          user.role === 'ADMIN' ? 'btn--disabled--sm' : 'btn--delete--sm'
-        "
+        :class="user.role === 'ADMIN' ? 'btn--disabled--sm' : 'btn--delete--sm'"
         @onClick="accessConfirmation()"
         type="button"
       />

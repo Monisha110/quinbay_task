@@ -1,10 +1,5 @@
 <template>
-  <button
-    :type="type"
-    @click="onClick()"
-    :class="buttonStyle"
-    :disabled="disabled"
-  >
+  <button :type="type" @click="onClick()" :disabled="disabled">
     {{ label }}
   </button>
 </template>
@@ -130,6 +125,20 @@
   background-color: #ffffff;
 }
 
+.btn--primary--sm--outline--100 {
+  color: #02a6e4;
+  border: 1px solid #02a6e4;
+  /* border: none; */
+  outline: none;
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 5px 20px;
+  background-color: #ffffff;
+}
+
 .btn--delete--sm {
   color: #ffffff;
   border: 1px solid #000000;
@@ -164,6 +173,19 @@
   border: 1px solid #dc3545;
   outline: none;
   /* width: 100%; */
+  height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 5px 20px;
+  background-color: #ffffff;
+}
+
+.btn--danger--sm--outline--100 {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  outline: none;
+  width: 100%;
   height: 35px;
   font-size: 12px;
   font-weight: 700;

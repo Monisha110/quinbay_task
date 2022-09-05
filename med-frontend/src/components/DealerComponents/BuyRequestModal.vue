@@ -24,7 +24,7 @@
           <div class="col-6 pe-1">
             <ButtonComponent
               label="Close"
-              buttonStyle="btn--black--outline"
+              class="btn--black--outline"
               @onClick="closeAction()"
               type="button"
             />
@@ -32,7 +32,7 @@
           <div class="col-6 ps-1">
             <ButtonComponent
               :label="modalButtonLabel"
-              buttonStyle="btn--black"
+              class="btn--black"
               @onClick="confirmAction()"
               type="button"
             />
@@ -187,5 +187,11 @@ select {
   font-weight: 500;
   margin: 0px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .modal--content {
+    width: 90%;
+  }
 }
 </style>

@@ -22,7 +22,7 @@
         />
       </a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler btn--toggle"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -37,7 +37,7 @@
           <li class="nav-item me-4">
             <BadgeComponent
               :label="'Name : ' + user.username"
-              className="badge--success--outline badge--outline--sm"
+              class="badge--success--outline badge--outline--sm"
             />
           </li>
           <li
@@ -53,7 +53,7 @@
         <div class="d-flex">
           <ButtonComponent
             label="Logout"
-            buttonStyle="btn--primary"
+            class="btn--primary"
             @onClick="logout()"
             type="button"
           />
@@ -71,5 +71,16 @@
 .nav--link {
   color: black;
   text-decoration: none;
+}
+.btn--toggle {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item {
+    margin: 10px 10px 0px 10px !important;
+  }
 }
 </style>

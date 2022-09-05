@@ -11,7 +11,6 @@ let axiosInstance = axios.create({});
 
 axiosInstance.interceptors.request.use(function (config) {
   const token = getToken();
-  console.log(token, "Setted");
   config.headers.Authorization = token;
   return config;
 });

@@ -1,3 +1,5 @@
+import Vue from "vue";
+
 import {
   getAllUser,
   getAllInventoryProduct,
@@ -40,7 +42,8 @@ export default {
           commit("setUserList", data.content);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },
@@ -51,7 +54,8 @@ export default {
           commit("setInventory", data.content);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },
@@ -64,7 +68,8 @@ export default {
           commit("setRequestHistory", data);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },

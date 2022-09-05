@@ -13,7 +13,7 @@
           <div class="col-auto">
             <BadgeComponent
               :label="requestData.status"
-              :className="[
+              :class="[
                 requestData.status === 'APPROVED'
                   ? 'badge--success--solid'
                   : requestData.status === 'DENIED'
@@ -59,7 +59,7 @@
           <div class="col-3">
             <ButtonComponent
               label="Reject"
-              buttonStyle="btn--black--outline"
+              class="btn--black--outline"
               @onClick="denyRequest()"
               type="button"
             />
@@ -67,7 +67,7 @@
           <div class="col-3">
             <ButtonComponent
               label="Approve"
-              buttonStyle="btn--black"
+              class="btn--black"
               @onClick="approveRequest()"
               type="button"
             />

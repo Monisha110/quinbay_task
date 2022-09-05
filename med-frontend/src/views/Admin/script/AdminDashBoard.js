@@ -46,6 +46,11 @@ export default {
         status: this.searchStatusKey,
       });
     },
+    clearFilter() {
+      this.searchRequestKey = "";
+      this.searchStatusKey = "";
+      this.$store.dispatch("GET_ALL_REQUEST", { userId: this.userId });
+    },
     closeRequestActionModal() {
       this.showRequestActionModal = false;
     },
@@ -76,7 +81,6 @@ export default {
       this.requestModalData = modalData;
     },
     saveActionCall(data) {
-      console.log(data);
       changeRequestStatus({
         requestData: data,
         successCallback: (res) => {
@@ -90,8 +94,8 @@ export default {
           }
         },
         errorCallback: (err) => {
-          console.log(err);
-          Vue.$toast.error(err.message);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
       this.showRequestActionModal = false;

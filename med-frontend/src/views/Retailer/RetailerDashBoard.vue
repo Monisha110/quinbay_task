@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid mt-5">
-      <div class="row px-3">
+      <div class="row px-0">
         <div class="col-12 col-md-6 col-lg-5 col-xl-3 mt-2">
           <div class="fixed--col">
             <BillingPOS />

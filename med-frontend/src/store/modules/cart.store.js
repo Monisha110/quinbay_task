@@ -24,8 +24,6 @@ export default {
   },
   mutations: {
     addProductToCart(state, { product }) {
-      console.log(product);
-
       let item = state.cart.find((item) => item.productId == product.productId);
       if (item) {
         if (item.quantity < item.inventoryQuantity) {
@@ -66,7 +64,6 @@ export default {
       commit("addProductToCart", product);
     },
     REMOVE_PRODUCT_FROM_CART({ commit }, { productIndex }) {
-      console.log(productIndex);
       commit("removeProductFromCart", { productIndex });
     },
     DECREASE_PRODUCT_QUANTITY_FROM_CART({ commit }, productId) {

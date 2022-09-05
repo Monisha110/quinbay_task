@@ -35,13 +35,14 @@ export default {
       makeOrder({
         orderData,
         successCallback: (res) => {
-          console.log(res);
-          Vue.$toast.success("Order Successfull");
-          this.$store.commit("clearCart");
+          if (res.status === 200) {
+            Vue.$toast.success("Order Successfull");
+            this.$store.commit("clearCart");
+          }
         },
         errorCallback: (err) => {
-          console.log(err);
-          Vue.$toast.error("Order Failed");
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },

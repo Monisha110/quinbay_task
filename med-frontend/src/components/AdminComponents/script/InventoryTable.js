@@ -4,6 +4,7 @@ import InventoryActionModal from "@/components/AdminComponents/InventoryActionMo
 import ButtonComponent from "@/components/ButtonComponent.vue";
 import { mapGetters } from "vuex";
 import Vue from "vue";
+
 import {
   createNewProduct,
   updateProductData,
@@ -64,8 +65,8 @@ export default {
           }
         },
         errorCallback: (err) => {
-          console.log(err);
-          Vue.$toast.error(err.message);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
       this.userId = "";
@@ -81,14 +82,12 @@ export default {
       this.selectedProduct = constructedData;
     },
     saveActionCall(product) {
-      console.log(product);
       if (!product.id) {
         const { id, ...rest } = product;
-        console.log(rest, id);
+        console.log(id);
         createNewProduct({
           productData: rest,
           successCallback: (res) => {
-            console.log(res);
             if (res.status === 200) {
               Vue.$toast.success("Product Added to Inventory!");
               this.$store.dispatch("GET_ALL_PRODUCT");
@@ -97,14 +96,14 @@ export default {
             }
           },
           errrorCallback: (err) => {
-            Vue.$toast.error(err.message);
+            console.log(err.response.data.message);
+            Vue.$toast.error("Something gone wrong! Please again later.");
           },
         });
       } else {
         updateProductData({
           productData: product,
           successCallback: (res) => {
-            console.log(res);
             if (res.status === 200) {
               Vue.$toast.success("Inventory Updated!");
               this.$store.dispatch("GET_ALL_PRODUCT");
@@ -113,7 +112,8 @@ export default {
             }
           },
           errrorCallback: (err) => {
-            Vue.$toast.error(err);
+            console.log(err.response.data.message);
+            Vue.$toast.error("Something gone wrong! Please again later.");
           },
         });
       }

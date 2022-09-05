@@ -22,7 +22,7 @@
           <div class="col-12">
             <div class="request--search--box">
               <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-2 mb-md-0">
                   <p class="table--header">
                     Request Information
                     <span class="total--client--badge"
@@ -40,18 +40,18 @@
                         placeholder="Search Request Id"
                       />
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3 col-md-auto">
                       <ButtonComponent
                         label="Search"
-                        buttonStyle="btn--primary--sm--outline"
+                        class="btn--primary--sm--outline"
                         @onClick="searchFilter()"
                         type="button"
                       />
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3 col-md-auto">
                       <ButtonComponent
                         label="Clear"
-                        buttonStyle="btn--danger--sm--outline"
+                        class="btn--danger--sm--outline"
                         @onClick="confirmAction()"
                         type="button"
                       />

@@ -1,3 +1,4 @@
+import Vue from "vue";
 import {
   getAllProductFromAdmin,
   getAllProductByDealerId,
@@ -48,7 +49,8 @@ export default {
           commit("setDealerProductList", data.content);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },
@@ -60,7 +62,8 @@ export default {
           commit("setDealerInventory", data.content);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },
@@ -77,7 +80,8 @@ export default {
           commit("setDealerRequestHistory", data);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },
@@ -94,7 +98,8 @@ export default {
           commit("setDealerRequestHistoryFromRetailer", data);
         },
         errorCallback: (err) => {
-          console.log(err);
+          console.log(err.response.data.message);
+          Vue.$toast.error("Something gone wrong! Please again later.");
         },
       });
     },

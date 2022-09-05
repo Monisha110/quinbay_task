@@ -2,7 +2,7 @@
   <div class="">
     <div class="inventory--table--search">
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-2 mb-md-0">
           <p class="table--header">
             Stocks with Merchant
             <span class="total--client--badge"
@@ -23,7 +23,7 @@
             <div class="col-auto">
               <ButtonComponent
                 label="Search"
-                buttonStyle="btn--black--outline"
+                class="btn--black--outline"
                 @onClick="searchName()"
                 type="button"
               />
@@ -31,7 +31,7 @@
             <div class="col-auto">
               <ButtonComponent
                 label="Clear"
-                buttonStyle="btn--primary--sm--outline"
+                class="btn--primary--sm--outline"
                 @onClick="clearSearch()"
                 type="button"
               />
@@ -48,6 +48,7 @@
               <th>S.No</th>
               <th>Product Name</th>
               <th>MRP</th>
+              <th>Tax</th>
               <th>Availability</th>
               <th>Status</th>
               <th>Action</th>

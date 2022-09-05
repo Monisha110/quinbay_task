@@ -9,7 +9,7 @@
     <td>
       <BadgeComponent
         :label="checkAvailabilityStatus ? 'Available' : 'Out of Stock'"
-        :className="[
+        :class="[
           checkAvailabilityStatus
             ? 'badge--success--outline'
             : 'badge--error--outline',
@@ -20,7 +20,7 @@
     <!-- <td>
       <BadgeComponent
         :label="checkProductionStatus ? 'In Production' : 'Stopped'"
-        :className="[
+        :class="[
           checkProductionStatus
             ? 'badge--success--outline'
             : 'badge--error--outline',
@@ -31,7 +31,7 @@
     <!-- <td>
       <ButtonComponent
         label="Edit"
-        buttonStyle="btn--edit--sm"
+        class="btn--edit--sm"
         @onClick="toggleActionModal(product)"
         type="button"
       />
@@ -39,7 +39,7 @@
     <!-- <td>
       <ButtonComponent
         label="Request Item"
-        buttonStyle="btn--edit--sm"
+        class="btn--edit--sm"
         @onClick="toggleActionModal(product)"
         type="button"
       />

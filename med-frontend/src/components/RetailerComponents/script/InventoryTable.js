@@ -42,9 +42,6 @@ export default {
       this.showBuyProductModal = true;
       this.selectedProduct = data;
     },
-    requestActionCall(data) {
-      console.log(data);
-    },
   },
   created() {
     this.$store.dispatch("GET_ALL_PRODUCT_BY_RETAILER_ID", {

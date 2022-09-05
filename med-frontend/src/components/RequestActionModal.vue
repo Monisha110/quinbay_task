@@ -11,6 +11,7 @@
           <textarea
             type="text"
             rows="5"
+            maxlength="500"
             class="action--textarea"
             v-model="remark"
             placeholder="Write any remark about this request."
@@ -22,7 +23,7 @@
           <div class="col-6 pe-1">
             <ButtonComponent
               label="Close"
-              buttonStyle="btn--black--outline"
+              class="btn--black--outline"
               @onClick="closeAction()"
               type="button"
             />
@@ -30,7 +31,7 @@
           <div class="col-6 ps-1">
             <ButtonComponent
               :label="requestModalData.modalActionButtonLabel"
-              buttonStyle="btn--black"
+              class="btn--black"
               @onClick="confirmAction()"
               type="button"
             />
@@ -170,5 +171,11 @@ select {
 
 .action--form--controller {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .modal--content {
+    width: 90%;
+  }
 }
 </style>

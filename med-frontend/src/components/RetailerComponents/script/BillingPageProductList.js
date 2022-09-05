@@ -19,6 +19,11 @@ export default {
     ButtonComponent,
     BadgeComponent,
   },
+  computed: {
+    checkAvailabilityStatus() {
+      return this.product.stockInHand > 0;
+    },
+  },
   methods: {
     addToCart(product) {
       this.$emit("addToCart", product);

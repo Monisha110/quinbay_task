@@ -46,18 +46,19 @@ export default {
             const { data } = res;
             commit("setUserData", data);
             while (getToken() == null) {
-              console.log("not yet Stored");
               setToken(data.token);
             }
             redirectDashboard(data);
-          } else {
-            Vue.$toast.error("Username or password may Incorrect!");
-            console.log(res);
           }
         },
         errorCallback: (err) => {
-          console.log(err);
-          Vue.$toast.error("Username or password may Incorrect!");
+          if (err.response.status === 402) {
+            Vue.$toast.error(
+              "You Are Currently Blocked, please contact Admin!"
+            );
+          } else {
+            Vue.$toast.error("Username or password may Incorrect!");
+          }
         },
       });
     },

@@ -8,7 +8,7 @@
     <td>
       <BadgeComponent
         :label="request.status"
-        :className="[
+        :class="[
           request.status === 'APPROVED'
             ? 'badge--success--outline'
             : request.status === 'DENIED'
